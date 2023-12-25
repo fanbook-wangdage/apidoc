@@ -115,3 +115,18 @@ AIbot消息记录
 | user | string | 是 | 用户短id |
 
 返回：text，提示信息
+
+## 词云 
+
+> GET /Wordcloud
+
+词云，可视化文本的主要内容，自带中文分词  
+参数：
+
+| 参数名 | 类型 | 是否必须 | 描述 |
+| :----: | :----: | :----: | :----: |
+| text | string | 是 | 文本 |
+| bkcolor | string | 否 | 背景颜色，#16进制或者常见单词 |
+| colormap | string | 否 | 文字配色方案，见[此链接](https://matplotlib.org/2.0.2/examples/color/colormaps_reference.html) |
+
+返回：text，图片链接

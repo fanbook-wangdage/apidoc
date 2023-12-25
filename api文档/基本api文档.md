@@ -49,7 +49,7 @@ http://1.117.76.68:5000
 {"data":"失败","errorInfo":"无法完成请求，参数错误或者机器人没有权限","status":"error"}
 ```
 
-## 发送普通消息
+## 发送消息卡片
 
 > GET/POST /bot/fsmessagekp
 
