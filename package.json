@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "docs:dev": "vuepress dev .",
-    "docs:build": "set NODE_OPTIONS=--openssl-legacy-provider --max_old_space_size=8192 && vuepress build ."
+    "docs:build": "set NODE_OPTIONS=--openssl-legacy-provider --max_old_space_size=8192 && vuepress build .",
+    "lint": "eslint ."
   },
   "license": "MIT",
   "devDependencies": {
@@ -19,6 +20,7 @@
   },
   "dependencies": {
     "vuepress-plugin-code-copy": "^1.0.6",
-    "vuepress-plugin-img-lazy": "^1.0.4"
+    "vuepress-plugin-img-lazy": "^1.0.4",
+    "eslint": "^7.32.0"
   }
 }
