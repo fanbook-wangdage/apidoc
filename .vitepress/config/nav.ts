@@ -8,5 +8,10 @@ export const nav = [
     text: '文档',
     activeMatch: '/docs/',
     link: '/docs/index'
+  },
+  {
+    text: 'api错误码',
+    activeMatch: '/docs/',
+    link: '/api错误码/index'
   }
 ]

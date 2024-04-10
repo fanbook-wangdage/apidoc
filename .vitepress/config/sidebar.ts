@@ -14,5 +14,6 @@ export const sidebar = {
     //     { text: '欢迎使用', link: '/docs/welcome' }
     //   ]
     // }
-  ]
+  ],
+  '/api错误码/':[]
 }
