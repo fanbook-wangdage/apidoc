@@ -1,28 +1,42 @@
----
-permalink: /
----
+# Vitepress-template
 
-# 首页
+## 💬 介绍
 
-> 提供机器人部署教程、简化的API
+[Vitepress](https://vitepress.vuejs.org) 模板，快速搭建你的静态网站和博客。
 
-## 文档内容
+## ✨ 特性
 
-- [API文档](/API文档)
-- [机器人文档](/机器人文档)
+- 📌 开箱即用
+- 🚀 和 [fighting-design](https://github.com/FightingDesign/fighting-design) 完美结合
+- 💪 使用 Vue.js 最新特性开发
+- 🐆 全面基于 Vite，速度够快
+- 🖍️ markdown 中直接使用 vue 组件
+- ✔️ 配置简单，上手容易
+- 🚩 markdown 中直接使用 setup 语法糖
+- 📃 第三方组件库支持
 
-## [API文档](/API文档)
+## 👀 启动
 
-向各位开发者提供的api。
+```shell
+# 安装依赖
+pnpm i
 
-## [机器人文档](/机器人文档)
+# 启动
+pnpm dev
 
-Fanbook机器人文档，含部署开源机器人教程。
+# 打包
+pnpm build
 
-## [加入体验服务器](https://in.fanbook.cn/gSYQLFSU)
+# 预览打包
+pnpm serve
+```
 
-加入机器人/软件体验服务器
+## 🕵️‍♀️ 更新日志
 
-## [加入开发服务器](https://in.fanbook.cn/LmgLJF3N)
+参考 [CHANGELOG.md](https://github.com/Tyh2001/vitepress-template/blob/master/CHANGELOG.md)
 
-讨论开发问题
+## 🙏 贡献者
+
+该仓库由 [Tyh2001](https://github.com/Tyh2001) 提供。
+
+![](https://tianyuhao.cn/images/auto/weixin.png)
