@@ -1,7 +1,7 @@
 {
   "name": "vitepress-template",
   "scripts": {
-    "dev": "vitepress dev",
+    "dev": "vitepress dev --port 8010",
     "build": "vitepress build",
     "serve": "vitepress serve",
     "docs:build": "vitepress build"
