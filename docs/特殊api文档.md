@@ -130,3 +130,38 @@ AIbot消息记录
 | colormap | string | 否 | 文字配色方案，见[此链接](https://matplotlib.org/2.0.2/examples/color/colormaps_reference.html) |
 
 返回：text，图片链接
+
+## 语音合成
+
+> GET https://124.221.67.43/api1/getaudio  
+
+https://github.com/zixiiu/Digital_Life_Server  
+
+这个项目里面的语音合成，模型编号有这些：  
+
+```python
+['models/paimon6k.json', 'models/paimon6k_390k.pth', 'character_paimon', 1],
+['models/yunfeimix2.json', 'models/yunfeimix2_53k.pth', 'character_yunfei', 1.1],
+['models/catmix.json', 'models/catmix_107k.pth', 'character_catmaid', 1.2]
+```  
+
+示例：  
+https://124.221.67.43/api1/getaudio?text=%E4%BD%A0%E5%A5%BD%E5%95%8A
+
+api已开源在https://github.com/fanbook-wangdage/cpu-speech-synthesis-api ，喜欢可以自己部署  
+参数：
+
+| 参数名 | 类型 | 是否必须 | 描述 |
+| :----: | :----: | :----: | :----: |
+| text | string | 是 | 文本 |
+| name | string | 否 | 模型编号，0至2 |
+
+返回：  
+type:json  
+
+| 参数名 | 类型 | 是否必须 | 描述 |
+| :----: | :----: | :----: | :----: |
+| code | intger | 否 | 错误代码 |
+| url | string | 否 | 文件链接 |
+| msg | string | 否 | 状态描述 |
+| ok | bool | 是 | 是否成功 |
